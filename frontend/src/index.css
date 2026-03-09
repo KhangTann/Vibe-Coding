@@ -1,0 +1,12 @@
+body {
+  font-family: Arial;
+}
+
+table {
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+button {
+  margin: 5px;
+}

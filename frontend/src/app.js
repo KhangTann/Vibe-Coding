@@ -2,6 +2,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import StudentList from "./StudentList";
 import AddStudent from "./AddStudent";
 import EditStudent from "./EditStudent";
+import Stats from "./Stats";
+
+
+
 
 function App() {
   return (
@@ -10,6 +14,7 @@ function App() {
         <Route path="/" element={<StudentList />} />
         <Route path="/add" element={<AddStudent />} />
         <Route path="/edit/:id" element={<EditStudent />} />
+        <Route path="/stats" element={<Stats />} />
       </Routes>
     </BrowserRouter>
   );
